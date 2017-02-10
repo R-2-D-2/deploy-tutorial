@@ -1,0 +1,5 @@
+namespace: whalesay
+containers:
+  app:
+    image: {{.image}}:{{.branch}}
+    restart: never
